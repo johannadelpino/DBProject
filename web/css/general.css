@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2013, 9:47:04 PM
+    Author     : Johanna
+*/
+
+body{
+     background-color:#FAFAFA;
+}
+h1,h2,h3,h4{
+        color:#571D7B;
+        font-size:6.5em;
+        text-shadow: 0 1px 0 #777777;
+        padding:20px;
+}
+h3{
+    font-size:3.5em;
+}
+h4{
+    font-size:2.5em;
+}
+
+.jumbotron img{margin-bottom: 20px}
+.jumbotron{
+        margin: 15% 0;
+        text-align: center;
+}
+.header{
+    margin-top:10px;    
+   
+   
+}
+.header ul{ margin:0;}
+.header ul li{
+    background-color:#571D7B;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;    
+    border-radius: 5px;
+    
+}
+
+.header ul li:hover,.header ul a:hover{
+     background-color:#8A7398;
+     border-color:#8A7398;
+    
+}
+
+#search-form{
+        padding:20px;
+        background-color:#61377B;
+        border:solid 2px #571D7B;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+}
+#results{
+    padding:0;
+    list-style:none;
+}
+#results li{
+    margin:15px;
+    padding:20px;
+    background-color:#f2f2f2;
+    border:1px solid #d4d4d4;
+   // border:solid 2px #8A7398;
+    font-size:12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left:50px;
+    margin-right:50px;
+    
+}
+#results  li div.formRow{
+       margin:7px 0 7px 0;
+}
+#results  li div.formRow span{
+    displiy:inline-block;
+    float:right;
+    
+}
